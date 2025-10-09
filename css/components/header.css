@@ -2,6 +2,7 @@
     width: 100%;
     min-height: 1000px;
 	background: url("../../img/background-header.png") no-repeat center center / cover;
+    background-attachment: fixed;
 }
 
 .flex {
