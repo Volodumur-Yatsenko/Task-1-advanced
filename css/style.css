@@ -14,6 +14,7 @@
 @import url('components/testimonials.css');
 @import url('components/price.css');
 @import url('components/contact.css');
+@import url('components/footer.css');
 
 body {
     font-family: "Roboto", sans-serif;
