@@ -1,0 +1,53 @@
+.partners {
+	width: 100%;
+	min-height: 600px;
+	background-color: #fff;
+}
+
+.partners_title {
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 400;
+	margin-top: 50px;
+	text-align: center;
+}
+.partners_subtitle {
+	font-size: 28px;
+	margin-top: 15px;
+	line-height: 40px;
+	color: #374754;
+	text-align: center;
+}
+
+.partners_name {
+	font-size: 16px;
+	color: #374754;
+	text-align: center;
+}
+
+.partners_block {
+	display: grid;
+	grid-template-columns: repeat(4, 280px);
+	align-items: center;
+	border-radius: 8px;
+    gap: 0.9rem;
+    margin-top: 50px;
+}
+
+.partners_card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 163px;
+	padding: 1.5rem;
+	justify-content: center;
+    border-top: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+}
+.partners_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
