@@ -9,6 +9,7 @@
 @import url('components/features.css');
 @import url('components/button.css');
 @import url('components/way.css');
+@import url('components/subscribe.css');
 
 body {
     font-family: "Roboto", sans-serif;
