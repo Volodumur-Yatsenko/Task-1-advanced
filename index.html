@@ -3,15 +3,17 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css" />
+		
 		<title>Document</title>
 	</head>
-
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<body>
-		<header id="home" class="header">
+		<header  id="home" class="header" >
 			<div class="container">
-				<div class="flex">
-					<nav>
+				<div  class="flex">
+					<nav data-aos="fade-right">
 						<ul class="menu">
 							<li class="menu_list"><a href="#home" class="menu_item">Home</a></li>
 							<li class="menu_list"><a href="#" class="menu_item">Product</a></li>
@@ -20,14 +22,14 @@
 							<li class="menu_list"><a href="#contact" class="menu_item">Contact</a></li>
 						</ul>
 					</nav>
-					<a href="" class="header_icon--link"><img class="header_icon" src="img/logo.svg" alt="" /></a>
-					<div class="header_social">
-						<a class="header_social--link" target="_blank" href="https://www.linkedin.com/in/koldovsky/?originalSubdomain=ua"><img class="header_social--icon" src="icons/twitter.svg" alt="" /></a>
+					<a data-aos="fade-right" href="#" class="header_icon--link"><img class="header_icon" src="img/logo.svg" alt="" /></a>
+					<div data-aos="fade-left" class="header_social">
+						<a class="header_social--link " target="_blank" href="https://www.linkedin.com/in/koldovsky/?originalSubdomain=ua"><img class="header_social--icon" src="icons/twitter.svg" alt="" /></a>
 						<a class="header_social--link" target="_blank" href="https://www.linkedin.com/in/koldovsky/?originalSubdomain=ua"><img class="header_social--icon" src="icons/facebook.svg" alt="" /></a>
 						<a class="header_social--link" target="_blank" href="https://www.linkedin.com/in/koldovsky/?originalSubdomain=ua"><img class="header_social--icon" src="icons/linkedin.svg" alt="" /></a>
 					</div>
 				</div>
-				<div class="header_bottom">
+				<div data-aos="fade-up" class="header_bottom">
 					<h1 class="header_title">
 						The best products <br />
 						start with Figma
@@ -43,13 +45,13 @@
 
 		<section class="features">
 			<div class="container">
-				<h2 class="features_title">Features</h2>
-				<div class="features_text">
+				<h2 data-aos="fade-right" class="features_title">Features</h2>
+				<div data-aos="fade-right" class="features_text">
 					Most calendars are designed for teams. <br />
 					Slate is designed for freelancers
 				</div>
 
-				<div class="features_card--flex">
+				<div data-aos="fade-left" class="features_card--flex">
 					<div class="features_card">
 						<img src="icons/features/circle.svg" alt="" class="features_img" />
 						<div class="features_subtitle">
@@ -72,13 +74,13 @@
 						<div class="features_descr">Slate helps you see how many more days you need to work to reach your financial goal.</div>
 					</div>
 				</div>
-				<div class="features_video">
+				<div data-aos="flip-left" class="features_video">
 					<div class="features_play"></div>
 				</div>
 			</div>
 		</section>
 
-		<section class="way">
+		<section  data-aos="zoom-in" class="way">
 			<div class="container">
 				<div class="way_flex">
 					<div class="way_block">
@@ -96,16 +98,16 @@
 
 		<section class="subscribe">
 			<div class="container-modificate flex flex-start">
-				<img src="img/message.svg" alt="" class="subscribe_img" />
+				<img  data-aos="fade-right" src="img/message.svg" alt="" class="subscribe_img" />
 
-				<div class="subscribe_block">
+				<div data-aos="fade-left" class="subscribe_block">
 					<h2 class="subscribe_title-top">At your fingertips</h2>
 					<div class="subscribe_title">
 						Lightning fast <br />
 						prototyping
 					</div>
 
-					<form class="subscribe_form" action="#">
+					<form data-aos="fade-left" class="subscribe_form" action="#">
 						<h2 class="subscribe_subtitle">Subscribe to our Newsletter</h2>
 						<div class="subscribe_title-bottom">Available exclusivery on Figmaland</div>
 						<input class="subscribe_input" type="email" placeholder="Your Email" />
@@ -117,81 +119,85 @@
 
 		<section class="partners">
 			<div class="container">
-				<h2 class="partners_title">Partners</h2>
-				<div class="partners_subtitle">
+				<h2  data-aos="fade-up" class="partners_title">Partners</h2>
+				<div  data-aos="fade-up" class="partners_subtitle">
 					Most calendars are designed for teams. <br />
 					Slate is designed for freelancers
 				</div>
 
 				<div class="partners_block">
-					<div class="partners_card">
+					<div data-aos="flip-left" class="partners_card">
 						<div class="partners_name">Client Name</div>
 						<img src="icons/partners/google.svg" alt="" class="partners_img" />
 					</div>
-					<div class="partners_card">
+					<div data-aos="flip-left"  class="partners_card">
 						<div class="partners_name">Client Name</div>
 						<img src="icons/partners/amazon.png" alt="" class="partners_img" />
 					</div>
-					<div class="partners_card">
+					<div data-aos="flip-right" class="partners_card">
 						<div class="partners_name">Client Name</div>
 						<img src="icons/partners/microsoft.png" alt="" class="partners_img" />
 					</div>
-					<div class="partners_card">
+					<div  data-aos="flip-right" class="partners_card">
 						<div class="partners_name">Client Name</div>
 						<img src="icons/partners/uber.png" alt="" class="partners_img" />
 					</div>
-					<div class="partners_card">
+					<div data-aos="flip-left" class="partners_card">
 						<div class="partners_name">Client Name</div>
 						<img src="icons/partners/dropbox.png" alt="" class="partners_img" />
 					</div>
-					<div class="partners_card">
+					<div data-aos="flip-left" class="partners_card">
 						<div class="partners_name">Client Name</div>
 						<img src="icons/partners/google.svg" alt="" class="partners_img" />
 					</div>
-					<div class="partners_card">
+					<div data-aos="flip-right" class="partners_card">
 						<div class="partners_name">Client Name</div>
 						<img src="icons/partners/uber.png" alt="" class="partners_img" />
 					</div>
-					<div class="partners_card">
+					<div data-aos="flip-right" class="partners_card">
 						<div class="partners_name">Client Name</div>
 						<img src="icons/partners/amazon.png" alt="" class="partners_img" />
 					</div>
 				</div>
-				<button class="partners_btn button scroll">Try For Free</button>
+				<div data-aos="zoom-in">
+					<button class="partners_btn button scroll" >Try For Free</button>
+				</div>
 			</div>
 		</section>
-		<section class="testimonials">
+		<section  class="testimonials">
 			<div class="container">
-				<h2 class="testimonials_title">Testimonials</h2>
-				<img src="img/ibm.png" alt="" class="testimonials_img" />
-				<div class="testimonials_descr">
+				<h2  data-aos="zoom-in" class="testimonials_title">Testimonials</h2>
+				<img  data-aos="zoom-in" src="img/ibm.png" alt="" class="testimonials_img" />
+				<div  data-aos="zoom-in" class="testimonials_descr">
 					Most calendars are designed for teams. Slate is designed for freelancers <br />
 					who want a simple way to plan their schedule.
 				</div>
 
-				<div class="testimonials_block">
-					<div class="testimonials_photo">
+				<div  class="testimonials_block">
+					<div data-aos="zoom-in" class="testimonials_photo">
 						<img src="icons/avatar.png" alt="" />
 					</div>
-					<div class="testimonials_text">
+					<div  data-aos="zoom-in" class="testimonials_text">
 						Organize across <br />
 						Ui designer
 					</div>
 				</div>
-				<button class="testimonials_btn button">More Testimonials</button>
-			</div>
+				<div data-aos="zoom-in">
+					<button class="testimonials_btn button">More Testimonials</button>
+				</div>
+			</div> 
 		</section>
 
 		<section id="price" class="price">
 			<div class="container">
-				<h2 class="price_title">Pricing</h2>
-				<div class="price_subtitle">
+				<h2  data-aos="zoom-in" class="price_title">Pricing</h2>
+				<div  data-aos="zoom-in" class="price_subtitle">
 					Most calendars are designed for teams. <br />
 					Slate is designed for freelancers
 				</div>
 
 				<div class="price_block">
-					<div class="price_card">
+					<div data-aos="zoom-out-right" class="price_card">
 						<div class="price_choose">FREE</div>
 						<div class="price_text">
 							Organize across all <br />
@@ -208,7 +214,7 @@
 						<div class="price_block-text">Pricing Feature</div>
 						<button class="price_btn button">Order Now</button>
 					</div>
-					<div class="price_card price_card-blue">
+					<div data-aos="fade-down" class="price_card price_card-blue">
 						<div class="price_choose price_choose-white">FREE</div>
 						<div class="price_text price_text-white">
 							Organize across all <br />
@@ -225,7 +231,7 @@
 						<div class="price_block-text price_block-white">Pricing Feature</div>
 						<button class="price_btn price_btn-white button">Order Now</button>
 					</div>
-					<div class="price_card">
+					<div data-aos="zoom-out-left" class="price_card">
 						<div class="price_choose">FREE</div>
 						<div class="price_text">
 							Organize across all <br />
@@ -248,14 +254,14 @@
 
 		<section id="contact" class="contact">
 			<div class="container">
-				<h2 class="contact_title">Contact Us</h2>
-				<div class="contact_subtitle">
+				<h2 data-aos="fade-down" class="contact_title">Contact Us</h2>
+				<div data-aos="fade-down" class="contact_subtitle">
 					Most calendars are designed for teams. <br />
 					Slate is designed for freelancers
 				</div>
 
 				<div class="contact_block">
-					<div class="contact_form">
+					<div data-aos="fade-right" class="contact_form">
 						<form class="contact_form-main" action="#">
 							<h3 class="form_title">Contact Us</h3>
 
@@ -268,7 +274,7 @@
 						</form>
 					</div>
 
-					<div class="contact_block--flex">
+					<div data-aos="fade-left" class="contact_block--flex">
 						<div class="contact_card">
 							<img src="icons/about-us/map.svg" alt="" class="contact_img" />
 							<div class="contact_text">
@@ -285,7 +291,7 @@
 							<div class="contact_text">willie.jennings@example.com</div>
 						</div>
 					</div>
-					<iframe
+					<iframe data-aos="fade-left"
 						class="contact_iframe"
 						src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d33393.71102816029!2d30.49146206959063!3d50.433440157720405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1suk!2sua!4v1760012204808!5m2!1suk!2sua"
 						width="512"
@@ -296,7 +302,7 @@
 						referrerpolicy="no-referrer-when-downgrade"
 					></iframe>
 
-					<div class="contact_social">
+					<div data-aos="fade-left" class="contact_social">
 						<a class="contact_social--link" target="_blank" href="https://www.linkedin.com/in/koldovsky/?originalSubdomain=ua"><img class="contact_social--icon" src="icons/contact-us/twitter-blue.svg" alt="" /></a>
 						<a class="contact_social--link" target="_blank" href="https://www.linkedin.com/in/koldovsky/?originalSubdomain=ua"><img class="contact_social--icon" src="icons/contact-us/facebook-blue.svg" alt="" /></a>
 						<a class="contact_social--link" target="_blank" href="https://www.linkedin.com/in/koldovsky/?originalSubdomain=ua"><img class="contact_social--icon" src="icons/contact-us/linkedin-blue.svg" alt="" /></a>
@@ -305,7 +311,7 @@
 			</div>
 		</section>
 
-		<section class="footer">
+		<section  data-aos="zoom-in" class="footer">
 			<div class="container">
 				<div class="footer_flex">
 					<div class="footer_block">
@@ -374,6 +380,6 @@
 		</section>
 
         <script src="js/script.js"></script>
-
+		
 	</body>
 </html>

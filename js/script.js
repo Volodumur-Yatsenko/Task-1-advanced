@@ -13,3 +13,9 @@ buttons.forEach((btn) => {
     }
   });
 });
+
+AOS.init({
+  duration: 2000,   
+    once: true,       
+    offset: 100  
+});
