@@ -1,6 +1,6 @@
 .contact {
 	width: 100%;
-	min-height: 1200px;
+	min-height: 1000px;
 	background-color: #fff;
 }
 
@@ -93,15 +93,17 @@
     left: 50%;
 }
 
-.header_social {
+.contact_social {
+    display: flex;
     position: absolute;
     bottom: 50px;
-    left:23%;
+    left:43%;
 }
-.header_social--link {
+.contact_social--link {
+     margin-left: 20px;
     transition: all 0.3s;
 }
-.header_social--link:hover {
+.contact_social--link:hover {
     transform: scale(1.1);
     transition: all 0.3s;
 }
