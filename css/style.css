@@ -12,6 +12,7 @@
 @import url('components/subscribe.css');
 @import url('components/partners.css');
 @import url('components/testimonials.css');
+@import url('components/price.css');
 
 body {
     font-family: "Roboto", sans-serif;
