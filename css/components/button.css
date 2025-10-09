@@ -1,0 +1,22 @@
+.button {
+    width: 236px;
+    height: 52px;
+    outline: none;
+    border: none;
+    background-color: #2091F9;
+    border-radius: 50px;
+    color: #fff;
+    transition: all 0.5s;
+    
+    cursor: pointer;
+}
+.button:hover {
+    box-shadow: 0px 0px 30px 0px #2091F9;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.button:focus,
+.button:active {
+  outline: none;
+}

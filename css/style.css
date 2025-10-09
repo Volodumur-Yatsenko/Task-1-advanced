@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url("reboot.min.css");
+
+
+/* components */
+
+@import url('components/header.css');
+@import url('components/product.css');
+@import url('components/button.css');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
