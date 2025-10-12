@@ -22,9 +22,11 @@ AOS.init({
 
 const burger = document.querySelector('.hamburger');
 	const menu = document.querySelector('.menu_nav');
+  const social = document.querySelector('.header_social');
 
 	burger.addEventListener('click', () => {
 		burger.classList.toggle('active');
 		menu.classList.toggle('active');
-		document.body.classList.toggle('lock'); // щоб не скролилося тіло
+    social.classList.toggle('active');
+		document.body.classList.toggle('lock'); 
 	});
