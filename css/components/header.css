@@ -331,6 +331,12 @@
 		margin-right: 150px;
 		display: block;
 	}
+	.header_social.active {
+		left: 15%;
+	}
+	.menu {
+		margin-right: 50px;
+	}
 }
 
 @media (max-width: 320px) {
