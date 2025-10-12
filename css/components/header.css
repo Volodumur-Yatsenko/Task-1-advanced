@@ -303,6 +303,11 @@
 		font-size: 16px;
 		text-align: center;
 	}
+	.header_icon--link img{
+		margin: 0 auto;
+		margin-right: 220px;
+		display: block;
+	}
 }
 
 @media (max-width: 375px) {
