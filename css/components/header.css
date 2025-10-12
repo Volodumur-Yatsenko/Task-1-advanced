@@ -321,8 +321,10 @@
 		font-size: 14px;
 		text-align: center;
 	}
-	.header_icon--link {
-		margin-left: -10px;
+	.header_icon--link img{
+		margin: 0 auto;
+		margin-right: 150px;
+		display: block;
 	}
 }
 
