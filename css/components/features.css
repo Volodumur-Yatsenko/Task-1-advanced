@@ -46,7 +46,7 @@
 	position: relative;
 	width: 1200px;
 	height: 700px;
-    margin-top: 80px;
+	margin-top: 80px;
 	background: url("../../img/screen-video.png") no-repeat center center / cover;
 }
 
@@ -72,4 +72,50 @@
 	top: 50%;
 	left: 52%;
 	transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1440px) {
+	.container {
+		max-width: none;
+		width: 100%;
+	}
+	.features_video {
+		width: 900px;
+		margin: 0 auto;
+	}
+	.features_card--flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 1024px) {
+	.features {
+		min-height: 800px;
+	}
+	.container {
+		max-width: none;
+		width: 100%;
+	}
+	.features_video {
+		display: none;
+	}
+	.features_card--flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 768px) {
+	.features_card {
+		padding: 10px 20px;
+	}
+	.features_text {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	.features_text {
+		font-size: 16px;
+	}
 }
