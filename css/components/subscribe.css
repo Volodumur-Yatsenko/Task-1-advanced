@@ -15,6 +15,12 @@
 	line-height: 55px;
 }
 
+.subscribe_img {
+	width: 700px;
+	height: 500px;
+	background: url("../../img/message.svg") no-repeat center center;
+}
+
 .subscribe_subtitle {
 	font-size: 20px;
 	font-weight: 700;
@@ -31,35 +37,143 @@
 }
 
 .subscribe_block {
-    margin-top: 50px;
+	margin-top: 50px;
 	margin-left: 100px;
 }
 .subscribe_form {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .subscribe_input {
-    width: 270px;
-    height: 54px;
-    margin-top: 50px;
-    background-color: #E8E8E8;
-    outline: none;
-    border: none;
-    border-radius: 50px;
-    padding-left: 20px;
+	width: 270px;
+	height: 54px;
+	margin-top: 50px;
+	background-color: #e8e8e8;
+	outline: none;
+	border: none;
+	border-radius: 50px;
+	padding-left: 20px;
 	transition: all 1s;
 }
 .subscribe_input:focus {
-    box-shadow: 0px 0px 30px 0px #2091F9;
+	box-shadow: 0px 0px 30px 0px #2091f9;
 	transition: all 1s;
 }
 
 .subscribe_btn {
-    width: 170px;
-    margin-left: 10px;
+	width: 170px;
+	margin-left: 10px;
 }
 
 .container-modificate {
-    width: 1300px;
-    margin: 0 auto;
+	width: 1300px;
+	margin: 0 auto;
+}
+.subcribe_top-mobile {
+	display: none;
+}
+.subscribe_title-mobile {
+	display: none;
+}
+.subcribe_descr-mobile {
+	display: none;
+}
+
+/* .form_flex {
+	display: flex;
+	align-items: center;
+}
+ */
+@media (max-width: 1440px) {
+	.container-modificate {
+		max-width: none;
+		width: 100%;
+	}
+	.subscribe-flex {
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	.subcribe_top-mobile {
+		display: flex;
+		text-align: center;
+		font-weight: 700;
+		font-size: 20px;
+	}
+	.subscribe_title-mobile {
+		display: flex;
+		font-size: 40px;
+		text-align: center;
+		font-weight: 400;
+		font-size: 48px;
+	}
+	.subcribe_descr-mobile {
+		display: flex;
+		padding-bottom: 30px;
+		text-align: center;
+		font-size: 28px;
+	}
+	.form_flex {
+		display: flex;
+		flex-direction: column;
+	}
+	.subscribe_input {
+		width: 350px;
+	}
+	.subscribe_btn {
+		width: 350px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.subscribe_img {
+		width: 600px;
+		height: 500px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.subscribe_img {
+		display: flex;
+		justify-content: center;
+		background: url("../../img/messege-mobile.svg") no-repeat center center;
+	}
+	.subscribe_block {
+		display: block;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	.subscribe_img {
+		width: 400px;
+		height: 350px;
+	}
+}
+
+@media (max-width: 425px) {
+	.subcribe_top-mobile{
+		padding-top: 50px;
+	}
+	.subcribe_descr-mobile {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+.subscribe_img {
+		width: 300px;
+		height: 350px;
+	}
+	.subscribe_input {
+		width: 280px;
+		margin-left: 5px;
+	}
+	.subscribe_btn {
+		width: 280px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
