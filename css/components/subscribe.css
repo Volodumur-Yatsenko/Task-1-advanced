@@ -164,6 +164,15 @@
 		width: 350px;
 		height: 350px;
 	}
+	.subscribe_input {
+		width: 350px;
+		margin-left: 5px;
+	}
+	.subscribe_btn {
+		width: 350px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
 
 @media (max-width: 320px) {
