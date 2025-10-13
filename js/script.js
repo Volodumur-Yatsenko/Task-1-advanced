@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			menu.classList.remove("active");
 			burger.classList.remove("active");
 			document.body.classList.remove("lock");
+			social.classList.remove('active');
 		});
 	});
 });
