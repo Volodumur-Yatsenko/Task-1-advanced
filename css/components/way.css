@@ -12,32 +12,32 @@
 	font-size: 48px;
 	font-weight: 400;
 	line-height: 55px;
-    margin-top: 10px;
+	margin-top: 10px;
 }
 .way_descr {
-    font-size: 28px;
-    line-height: 40px;
-    color: #374754;
-    padding-top: 5px;
+	font-size: 28px;
+	line-height: 40px;
+	color: #374754;
+	padding-top: 5px;
 }
 
 .way_btn {
-    margin-top: 80px;
+	margin-top: 80px;
 }
 
 .way_img {
 	width: 900px;
 	height: 450px;
-	background: url('../../img/laptop.png') no-repeat center center;
+	background: url("../../img/laptop.png") no-repeat center center;
 }
 
 @media (max-width: 1440px) {
-		.way_img {
-			max-width: 800px;
-			margin: 0 auto;
-			padding-top: 50px;
-		}
-	
+	.way_img {
+		max-width: 800px;
+		margin: 0 auto;
+		padding-top: 50px;
+	}
+
 	.way_flex {
 		text-align: center;
 		justify-content: center;
@@ -49,18 +49,18 @@
 }
 @media (max-width: 1440px) {
 	.way_img {
-	width: 900px;
-	height: 450px;
-	background: url('../../img/laptop-mobile.png') no-repeat center center;
-}
+		width: 900px;
+		height: 450px;
+		background: url("../../img/laptop-mobile.png") no-repeat center center;
+	}
 }
 
 @media (max-width: 768px) {
 	.way_img {
-			max-width: 400px;
-			margin: 0 auto;
-			padding-top: 50px;
-		}
+		max-width: 400px;
+		margin: 0 auto;
+		padding-top: 50px;
+	}
 	.way_descr {
 		padding: 0 20px;
 		padding-top: 20px;
@@ -77,16 +77,16 @@
 		font-size: 20px;
 	}
 	.way_img {
-	width: 372px;
-	height:225px;
-	background: url('../../img/laptop-mobile.png') no-repeat center center;
-	margin-top: 20px;
-}
+		width: 372px;
+		height: 225px;
+		background: url("../../img/laptop-mobile.png") no-repeat center center;
+		margin-top: 20px;
+	}
 }
 @media (max-width: 375px) {
 	.way_img {
-			width: 300px;
-		height:225px;
-		background: url('../../img/laptop-mobile.png') no-repeat center center;
-		}
+		width: 300px;
+		height: 225px;
+		background: url("../../img/laptop-mobile.png") no-repeat center center;
+	}
 }
