@@ -420,4 +420,7 @@
 		font-size: 12px;
 		text-align: center;
 	}
+	.header_title {
+		font-size: 26px;
+	}
 }

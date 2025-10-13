@@ -55,6 +55,14 @@
 	}
 }
 
+@media (max-width: 778px) {
+	.way_img {
+		max-width: 600px;
+		margin: 0 auto;
+		padding-top: 50px;
+	}
+}
+
 @media (max-width: 768px) {
 	.way_img {
 		max-width: 400px;
