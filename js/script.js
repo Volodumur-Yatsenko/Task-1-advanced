@@ -25,11 +25,20 @@ document.addEventListener("DOMContentLoaded", () => {
 	const burger = document.querySelector(".hamburger");
 	const menu = document.querySelector(".menu_nav");
 	const social = document.querySelector(".header_social");
+	const menuLinks = document.querySelectorAll(".menu a");
 
 	burger.addEventListener("click", () => {
 		burger.classList.toggle("active");
 		menu.classList.toggle("active");
 		social.classList.toggle("active");
 		document.body.classList.toggle("lock");
+	});
+
+	menuLinks.forEach((link) => {
+		link.addEventListener("click", () => {
+			menu.classList.remove("active");
+			burger.classList.remove("active");
+			document.body.classList.remove("lock");
+		});
 	});
 });
