@@ -89,7 +89,7 @@
 }
 
 .hamburger {
-	position: fixed;
+	position: relative;
 	display: none;
 	top: 40px;
 	right: 20px;
@@ -135,6 +135,9 @@
 }
 
 @media (max-width: 1200px) {
+	.price {
+		padding-bottom: 50px;
+	}
 	.container {
 		max-width: none;
 		width: 100%;
@@ -193,7 +196,7 @@
 	}
 	.hamburger {
 		display: block;
-		position: fixed;
+		position: absolute;
 		top: 40px;
 		right: 20px;
 
