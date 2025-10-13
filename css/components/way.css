@@ -24,3 +24,69 @@
 .way_btn {
     margin-top: 80px;
 }
+
+.way_img {
+	width: 900px;
+	height: 450px;
+	background: url('../../img/laptop.png') no-repeat center center;
+}
+
+@media (max-width: 1440px) {
+		.way_img {
+			max-width: 800px;
+			margin: 0 auto;
+			padding-top: 50px;
+		}
+	
+	.way_flex {
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.way_descr {
+		padding-top: 20px;
+	}
+}
+@media (max-width: 1440px) {
+	.way_img {
+	width: 900px;
+	height: 450px;
+	background: url('../../img/laptop-mobile.png') no-repeat center center;
+}
+}
+
+@media (max-width: 768px) {
+	.way_img {
+			max-width: 400px;
+			margin: 0 auto;
+			padding-top: 50px;
+		}
+	.way_descr {
+		padding: 0 20px;
+		padding-top: 20px;
+	}
+}
+
+@media (max-width: 425px) {
+	.way_title {
+		padding-top: 50px;
+		font-size: 36px;
+	}
+	.way_descr {
+		padding-top: 10px;
+		font-size: 20px;
+	}
+	.way_img {
+	width: 372px;
+	height:225px;
+	background: url('../../img/laptop-mobile.png') no-repeat center center;
+	margin-top: 20px;
+}
+}
+@media (max-width: 375px) {
+	.way_img {
+			width: 300px;
+		height:225px;
+		background: url('../../img/laptop-mobile.png') no-repeat center center;
+		}
+}
