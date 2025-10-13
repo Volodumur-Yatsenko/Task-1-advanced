@@ -325,8 +325,10 @@
 		font-size: 16px;
 		text-align: center;
 	}
-	.header_icon--link {
-		top: 0px;
+	.header_icon--link img{
+		height: auto;
+		margin: 0;
+		display: block;
 	}
 	.header_social.active {
 		left: 20%;
@@ -342,7 +344,9 @@
 		z-index: 1000;
 	}
 	.header_icon--link img{
-		margin-right: 20px;
+		height: auto;
+		margin: 0;
+		display: block;
 	}
 }
 
@@ -359,8 +363,8 @@
 		text-align: center;
 	}
 	.header_icon--link img{
-		margin: 0 auto;
-		margin-right: 150px;
+		height: auto;
+		margin: 0;
 		display: block;
 	}
 	.header_social.active {
@@ -371,10 +375,18 @@
 	}
 }
 
+@media (max-width: 322px)  {
+	.header_icon--link img {
+		height: auto;
+		margin: 0;
+		display: block;
+	}
+}
+
 @media (max-width: 320px) {
 	.header_icon--link img{
-		margin: 0 auto;
-		margin-right: 100px;
+		height: auto;
+		margin: 0;
 		display: block;
 	}
 	.hamburger {
