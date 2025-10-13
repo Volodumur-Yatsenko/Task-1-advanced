@@ -27,11 +27,12 @@
 
 .partners_block {
 	display: grid;
-	grid-template-columns: repeat(4, 280px);
+	grid-template-columns: repeat(auto-fill, 280px);
 	align-items: center;
+	justify-content: center;
 	border-radius: 8px;
-    gap: 0.9rem;
-    margin-top: 50px;
+	gap: 0.9rem;
+	margin-top: 50px;
 }
 
 .partners_card {
@@ -41,13 +42,32 @@
 	height: 163px;
 	padding: 1.5rem;
 	justify-content: center;
-    border-top: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
 	border-left: 1px solid #d8d8d8;
 	border-right: 1px solid #d8d8d8;
 	border-bottom: 1px solid #d8d8d8;
 }
 .partners_btn {
-    display: block;
-    margin: 0 auto;
-    margin-top: 80px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 425px) {
+	.partners_card:nth-child(n + 4) {
+		display: none;
+	}
+	.partners_title {
+		font-size: 48px;
+	}
+	.partners_subtitle {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	.partners_subtitle {
+		font-size: 16px;
+	}
 }
