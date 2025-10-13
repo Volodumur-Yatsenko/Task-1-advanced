@@ -35,7 +35,11 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	menuLinks.forEach((link) => {
-		link.addEventListener("click", () => {
+		link.addEventListener("click", (e) => {
+			if(link.getAttribute("href") === '#') {
+				e.preventDefault();
+			}
+
 			menu.classList.remove("active");
 			burger.classList.remove("active");
 			document.body.classList.remove("lock");
