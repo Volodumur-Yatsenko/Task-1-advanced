@@ -20,92 +20,126 @@
 }
 
 .price_block {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
 }
 .price_card {
-    width: 335px;
-    height: 607px;
-    background-color: #fff;
-    border-radius: 20px;
+	width: 335px;
+	height: 607px;
+	background-color: #fff;
+	border-radius: 20px;
 }
 .price_choose {
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 30px;
 }
 .price_text {
-    font-size: 16px;
-    margin-top: 10px;
-    text-align: center;
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: center;
 }
 .price_month-flex {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
 .price_month {
-    position: relative;
-    font-weight: 700;
-    line-height: 84px;
-    font-size: 74px;
+	position: relative;
+	font-weight: 700;
+	line-height: 84px;
+	font-size: 74px;
 }
 .price_month::before {
-    content: '$';
-    position: absolute;
-    top: -20px;
-    left: 120%;
-    width: 13px;
-    height: 28px;
-    font-size: 20px;
+	content: "$";
+	position: absolute;
+	top: -20px;
+	left: 120%;
+	width: 13px;
+	height: 28px;
+	font-size: 20px;
 }
 .price_month-text {
-    margin-top: 45px;
-    margin-left: 10px;
-    font-size: 16px;
+	margin-top: 45px;
+	margin-left: 10px;
+	font-size: 16px;
 }
 .price_block-text {
-    font-size: 15px;
-    text-align: center;
-    color: #252B42;
-    margin-top: 20px;
+	font-size: 15px;
+	text-align: center;
+	color: #252b42;
+	margin-top: 20px;
 }
 .price_btn {
-display: block;
-margin: 0 auto;
-margin-top: 70px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 70px;
 }
 .price_btn-white {
-    background-color: #fff;
-    color: #2091F9;
-    margin-top: 110px;
-    transition: all 0.5s;
+	background-color: #fff;
+	color: #2091f9;
+	margin-top: 110px;
+	transition: all 0.5s;
 }
 .price_btn-white:hover {
-    box-shadow: 0px 0px 30px 0px #fff;
-    transition: all 0.5s;
+	box-shadow: 0px 0px 30px 0px #fff;
+	transition: all 0.5s;
 }
-.price_card-blue{
-    width: 335px;
-    height: 693px;
-    background-color: #2091F9;
-    border: 0.5px solid #fff;
-    margin-top: -40px;
+.price_card-blue {
+	width: 335px;
+	height: 693px;
+	background-color: #2091f9;
+	border: 0.5px solid #fff;
+	margin-top: -40px;
 }
 .price_choose-white {
-    color: #fff;
+	color: #fff;
 }
 .rice_text-white {
-color: #fff;
+	color: #fff;
 }
 .price_month-white {
-color: #fff;
+	color: #fff;
 }
 .price_text-white {
-color: #fff;
+	color: #fff;
 }
 .price_block-white {
-color: #fff;
+	color: #fff;
+}
+
+@media (max-width: 1440px) {
+	.container {
+		max-width: none;
+		width: 100%;
+		padding: 10px 10px;
+	}
+}
+@media (max-width: 1118px) {
+	.price_block {
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+    .price_card:nth-child(n+2) {
+       margin-top: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .price_subtitle {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .price_subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .price_card {
+        width: 280px;
+    }
 }

@@ -38,3 +38,14 @@ margin-top: 100px;
     margin: 0 auto;
     margin-top: 80px;
 }
+@media (max-width: 768px) {
+    .testimonials_descr {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:425px) {
+    .testimonials_descr {
+        font-size: 16px;
+    }
+}
